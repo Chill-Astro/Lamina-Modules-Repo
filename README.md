@@ -10,6 +10,8 @@ This is Where Modules for Lamina ✦ are Stored! These Moduls are Loaded through
 
 Get Template [Lamina ✦ Modules Template](https://github.com/Chill-Astro/Lamina-Modules-Template).
 
+Get Lamina ✦ [here](https://github.com/Chill-Astro/Lamina-Calculator).
+
 For Maximum Reach, ensure to Fork the Above Mentioned Repo and I will add you here!
 
 </div>
