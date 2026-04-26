@@ -8,7 +8,7 @@
 
 This is Where Modules for Lamina ✦ are Stored! These Moduls are Loaded through Dynamo Scripties Loader
 
-Get Template [Lamina ✦ Modules Template](https://github.com/Chill-Astro/Lamina-Modules-Template).
+Get Template [Lamina ✦ Modules Template](https://github.com/Chill-Astro/Lamina-Module-Template).
 
 Get Lamina ✦ [here](https://github.com/Chill-Astro/Lamina-Calculator).
 
@@ -22,7 +22,7 @@ Dynamo is a Dynamic Scriptie Loader. Think of MODS in a Game, or Magisk Modules.
 
 Yes that's right! An Importer of Math Scripts. Now you can Program her without Proper Coding Skills!
 
-Check for Details [here!](https://github.com/Chill-Astro/Lamina-Dynamo-Scripties-Loader)
+Essentially, you write a simple equation and she will parse it through NCalc!
 
 For Maximum Reach, ensure to Fork the Above Mentioned Repo and I will add you to my Modules!
 
