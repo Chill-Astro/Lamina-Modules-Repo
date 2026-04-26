@@ -28,6 +28,20 @@ For Maximum Reach, ensure to Fork the Above Mentioned Repo and I will add you to
 
 ---
 
+## MODULES ( Arranged By Date of Upload )  : 
+
+1. [Lamina GST Module](https://github.com/Chill-Astro/Lamina-GST-Module) : By Me!
+
+---
+
+## Contributing :
+
+- Fork [Lamina ✦ Modules Template](https://github.com/Chill-Astro/Lamina-Modules-Template).
+- Sample Code is Given. Modify as you Need.
+- I will add you to the Lamina ✦ Modules Repo
+
+---
+
 ## The Basic Structure for a .lamina file :
 
 - A `.lamina` is Essentially a .json file.
@@ -93,20 +107,6 @@ For Maximum Reach, ensure to Fork the Above Mentioned Repo and I will add you to
           "Error": "Invalid Input (Check Discriminant)"
          }
       }
-
----
-
-## Contributing :
-
-- Fork [Lamina ✦ Modules Template](https://github.com/Chill-Astro/Lamina-Modules-Template).
-- Sample Code is Given. Modify as you Need.
-- I will add you to the Lamina ✦ Modules Repo
-
----
-
-## HALL OF FAME MODULES 👍 : 
-
-// Will Add Modules Here!
 
 ---
 
