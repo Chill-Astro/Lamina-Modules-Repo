@@ -35,25 +35,64 @@ For Maximum Reach, ensure to Fork the Above Mentioned Repo and I will add you to
 - Structure :
 
         
-          {
-            "Metadata": {
-              "Name": "", // This is What your Module Shows Up!
-              "Author": "", // Write your Username.
-              "Version": "", // This is the Version of your Scriptie.
-              "Description": "", //
-              "Repo": "https://github.com/yourlink"
+      {
+        "Metadata": {
+          "Name": "", // This is What your Module Shows Up!
+          "Author": "", // Write your Username.
+          "Version": "", // This is the Version of your Scriptie.
+          "Description": "", //
+          "Repo": "https://github.com/yourlink"
+        },
+        "UI": {
+          "Formula": "", // Example y = mx + c
+          "Inputs": [
+            { "Header": "Input Label", "Placeholder": "0.0", "Key": "var_name" } // Add as many as you like.
+          ]
+        },
+        "Logic": {
+          "Output": "NCalc math string using [var_name]", // Your Output.
+          "Error": "Message if math fails" // Your Error.
+        }
+      }
+
+- Example :
+
+      {
+        "Metadata": {
+          "Name": "Quadratic Equation Demo",
+          "Author": "Chill-Astro Software",
+          "Version": "1.0",
+          "Description": "Solves ax² + bx + c = 0",
+          "Repo": "https://github.com/Chill-Astro/Lamina-Modules-Repo"
+        },
+        "UI": {
+          "Formula": "x = [-b ± √(b² - 4ac)] / 2a",
+          "Inputs": [
+            { 
+              "Label": "Coefficient a", 
+              "Key": "a", 
+              "Header" : "Enter A",
+              "Placeholder": "1.0" 
             },
-            "UI": {
-              "Formula": "", // Example y = mx + c
-              "Inputs": [
-                { "Header": "Input Label", "Placeholder": "0.0", "Key": "var_name" } // Add as many as you like.
-              ]
+            { 
+              "Label": "Coefficient b", 
+              "Key": "b", 
+              "Header" : "Enter B",
+              "Placeholder": "0.0" 
             },
-            "Logic": {
-              "Output": "NCalc math string using [var_name]", // Your Output.
-              "Error": "Message if math fails" // Your Error.
+            { 
+              "Label": "Coefficient c", 
+              "Key": "c", 
+              "Header" : "Enter C",
+              "Placeholder": "0.0" 
             }
-          }
+          ]
+        },
+        "Logic": {
+          "Output": "'x1 = ' + ((-b + Sqrt(Pow(b, 2) - 4*a*c)) / (2*a)) + ' | x2 = ' + ((-b - Sqrt(Pow(b, 2) - 4*a*c)) / (2*a))",
+          "Error": "Invalid Input (Check Discriminant)"
+         }
+      }
 
 ---
 
