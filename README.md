@@ -20,6 +20,8 @@ For Maximum Reach, ensure to Fork the Above Mentioned Repo and I will add you he
 
 Dynamo is a Dynamic Scriptie Loader. Think of MODS in a Game, or Magisk Modules.
 
+Didn't get it? Alright, Think of a Digital Version of a Programmable Calculator.
+
 Yes that's right! An Importer of Math Scripts. Now you can Program her without Proper Coding Skills!
 
 Essentially, you write a simple equation and she will parse it through NCalc!
