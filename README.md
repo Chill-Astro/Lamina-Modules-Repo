@@ -6,7 +6,7 @@
 
 <div align="center">
 
-This is Where Modules for Lamina ✦ are Stored! These Moduls are Loaded through Dynamo Scripties Loader
+This is Where Modules for Lamina ✦ are Stored! These Moduls are Loaded through Dynamo Scripties Loader.
 
 Get Template [Lamina ✦ Modules Template](https://github.com/Chill-Astro/Lamina-Module-Template).
 
@@ -16,99 +16,11 @@ For Maximum Reach, ensure to Fork the Above Mentioned Repo and I will add you he
 
 </div>
 
-## WHAT IS DYNAMO???????
-
-Dynamo is a Dynamic Scriptie Loader. Think of MODS in a Game, or Magisk Modules.
-
-Didn't get it? Alright, Think of a Digital Version of a Programmable Calculator.
-
-Yes that's right! An Importer of Math Scripts. Now you can Program her without Proper Coding Skills!
-
-Essentially, you write a simple equation and she will parse it through NCalc!
-
-For Maximum Reach, ensure to Fork the Above Mentioned Repo and I will add you to my Modules!
-
 ---
 
 ## MODULES ( Arranged By Date of Upload )  : 
 
 1. [Lamina GST Module](https://github.com/Chill-Astro/Lamina-GST-Module) : By Me!
-
----
-
-## Contributing :
-
-- Fork [Lamina ✦ Modules Template](https://github.com/Chill-Astro/Lamina-Modules-Template).
-- Sample Code is Given. Modify as you Need.
-- I will add you to the Lamina ✦ Modules Repo
-
----
-
-## The Basic Structure for a .lamina file :
-
-- A `.lamina` is Essentially a .json file.
-  
-- Structure :
-
-        
-      {
-        "Metadata": {
-          "Name": "", // This is What your Module Shows Up!
-          "Author": "", // Write your Username.
-          "Version": "", // This is the Version of your Scriptie.
-          "Description": "", //
-          "Repo": "https://github.com/yourlink"
-        },
-        "UI": {
-          "Formula": "", // Example y = mx + c
-          "Inputs": [
-            { "Header": "Input Label", "Placeholder": "0.0", "Key": "var_name" } // Add as many as you like.
-          ]
-        },
-        "Logic": {
-          "Output": "NCalc math string using [var_name]", // Your Output.
-          "Error": "Message if math fails" // Your Error.
-        }
-      }
-
-- Example :
-
-      {
-        "Metadata": {
-          "Name": "Quadratic Equation Demo",
-          "Author": "Chill-Astro Software",
-          "Version": "1.0",
-          "Description": "Solves ax² + bx + c = 0",
-          "Repo": "https://github.com/Chill-Astro/Lamina-Modules-Repo"
-        },
-        "UI": {
-          "Formula": "x = [-b ± √(b² - 4ac)] / 2a",
-          "Inputs": [
-            { 
-              "Label": "Coefficient a", 
-              "Key": "a", 
-              "Header" : "Enter A",
-              "Placeholder": "1.0" 
-            },
-            { 
-              "Label": "Coefficient b", 
-              "Key": "b", 
-              "Header" : "Enter B",
-              "Placeholder": "0.0" 
-            },
-            { 
-              "Label": "Coefficient c", 
-              "Key": "c", 
-              "Header" : "Enter C",
-              "Placeholder": "0.0" 
-            }
-          ]
-        },
-        "Logic": {
-          "Output": "'x1 = ' + ((-b + Sqrt(Pow(b, 2) - 4*a*c)) / (2*a)) + ' | x2 = ' + ((-b - Sqrt(Pow(b, 2) - 4*a*c)) / (2*a))",
-          "Error": "Invalid Input (Check Discriminant)"
-         }
-      }
 
 ---
 
